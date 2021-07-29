@@ -1,0 +1,39 @@
+.logo {
+    width: 16vw;
+}
+
+@media (max-width: 991px) {
+    .logo {
+        width: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo {
+        width: 50%;
+    }
+}
+
+@media (max-width: 575px) {
+    .logo {
+        width: 70%;
+    }
+}
+
+.row.form {
+    margin: 10px;
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: #6684ff;
+}
+
+.hidden{
+    display: none;
+}
+
+#qrcode{
+    width:100%; 
+    margin-top:15px;
+}
